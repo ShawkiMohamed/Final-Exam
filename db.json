@@ -1,0 +1,106 @@
+{
+  "students": [
+    {
+      "username": "shawki",
+      "email": "sh@sh.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "username": "mohamed",
+      "email": "m@m.com",
+      "password": "456",
+      "subjects": [
+        {
+          "name": "math",
+          "id": "1",
+          "degree": 1
+        },
+        {
+          "name": "arab",
+          "id": "2",
+          "degree": 2
+        }
+      ],
+      "id": 2
+    },
+    {
+      "username": "ali",
+      "email": "ali@gmail.com",
+      "password": "147",
+      "id": 3
+    },
+    {
+      "username": "medo",
+      "email": "medo@gmail.com",
+      "password": "258",
+      "subjects": [
+        {
+          "name": "arab",
+          "id": "2",
+          "degree": 1
+        }
+      ],
+      "id": 4
+    }
+  ],
+  "doctor": [
+    {
+      "username": "admin",
+      "email": "admin@admin.com",
+      "password": "1234",
+      "id": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "math",
+      "questions": [
+        {
+          "question": "2*5",
+          "answer1": "25",
+          "answer2": "5",
+          "answer3": "58",
+          "answer4": "4",
+          "correctAnswer": "25"
+        },
+        {
+          "question": "2+6",
+          "answer1": "5",
+          "answer2": "8",
+          "answer3": "12",
+          "answer4": "5",
+          "correctAnswer": "12"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "arab",
+      "questions": [
+        {
+          "question": "ubuib",
+          "answer1": "bu",
+          "answer2": "buub",
+          "answer3": "yvyg",
+          "answer4": "vtvt",
+          "correctAnswer": "buub"
+        },
+        {
+          "question": "hvjhvhjv",
+          "answer1": "ctc",
+          "answer2": "ctct",
+          "answer3": "gugu",
+          "answer4": "ihihi",
+          "correctAnswer": "gugu"
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "login": [
+    {
+      "id": 1
+    }
+  ]
+}
